@@ -1,0 +1,47 @@
+long *Load_File (char *Filename, int *Size)
+{
+	FILE * file;
+	file = fopen( "Filename", "r");
+	if(file)
+	{
+		fscanf(file, "%s", *Size);
+		for(int i = 0, i < Size, i++)
+		{
+			long *array[Size];
+			fscanf(file, "%s", array[i];
+		}		
+		fclose(file);
+	}
+	return array;
+}
+int Save_File (char *Filename, long *Array, int Size)
+{
+	FILE * file;
+	file = fopen("Filename", "w");
+	if(file != NULL)
+	{
+		scanf("$d\n", Size);
+		for(int i = 0, i < Size, i++)
+		{
+			scanf("%d\n", Array[i];
+		}
+		fclose(file);
+		return Size;
+	}
+}
+void Shell_Insertion_Sort (long *Array, int Size, double *NComp, double *NMove)
+{
+	
+}
+void Improved_Bubble_Sort (long *Array, int Size, double *NComp, double *NMove)
+{
+	
+}
+void Save_Seq1 (char *Filename, int N)
+{
+	
+}
+void Save_Seq2 (char *Filename, int N)
+{
+	
+}
